@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cedrotech.traveling.controller.ProfileFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contentProfile">
+
+        <com.pkmmte.view.CircularImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_picture"
+            android:layout_width="180dip"
+            android:layout_height="180dip"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="50dp"
+            app:border="true"
+            app:border_color="@color/color2"
+            app:border_width="4dp"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_gravity="center"
+            android:layout_marginTop="55dp"
+            style="@style/NameTitle"/>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_gravity="center"
+            android:layout_marginTop="75dp"
+            style="@style/EmailTitle"/>
+
+    </FrameLayout>
+
+    <include layout="@layout/no_internet"/>
+    <include layout="@layout/preloader"/>
+
+</FrameLayout>

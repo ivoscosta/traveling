@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cedrotech.traveling.controller.VisitedFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/visited_recycler_view"
+        android:layout_width="800dp"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"/>
+
+    <include layout="@layout/preloader"/>
+
+</FrameLayout>

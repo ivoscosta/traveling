@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Traveling</string>
+    <string name="app_site">traveling.com </string>
+
+    <string name="facebook_app_id">184010525329306</string>
+    <string name="SERVER_URL_COUNTRIES">http://mypushapi-dev.us-east-1.elasticbeanstalk.com/world/countries/active</string>
+    <string name="SERVER_URL_COUNTRIES_FLAGS">http://mypushapi-dev.us-east-1.elasticbeanstalk.com/world/countries/%1$d/flag</string>
+
+    <string name="tour1">O Traveling é uma nova maneira de viajar e conhecer o mundo</string>
+    <string name="tour2">Conheça países, veja mapas e fotos dos locais</string>
+    <string name="tour3">Se você esteve lá, marque como visitado e compartilhe com os amigos</string>
+    <string name="text_login_1">Não postamos nada no Facebook</string>
+
+    <string name="section1">Perfil</string>
+    <string name="section2">Países</string>
+    <string name="section3">Visitados</string>
+
+    <string name="logout">Sair</string>
+
+    <string name="no_internet">Sem conexão de internet.</string>
+    <string name="no_internet2">Sem conexão com a internet. Toque\npara tentar novamente.</string>
+    <string name="photos">Fotos no Instagram</string>
+    <string name="maps">Mapa do País</string>
+    <string name="visited">Visitado em </string>
+    <string name="found_object">Encontrado %1$s no Traveling</string>
+
+</resources>
